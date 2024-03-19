@@ -46,12 +46,12 @@ public class Main {
         for (int i = 0; i < dataSizes.length; i++) {
             for (int j = 0; j < means.length; j++) {
                 for (int k = 0; k < variances.length; k++) {
-                    String directoryGenerate = "D:/alg/ProjectReda/GenerateDadaFiles/";
-                    String directoryBestCase = "D:/alg/ProjectReda/BestCaseFiles/"; // Remplacez ce chemin par le répertoire où vous souhaitez stocker les fichiers triés en meilleur cas
+                    String directoryGenerate = "D:/alg/insertion-sort-exponential-linked-list/GenerateDadaFiles/";
+                    String directoryBestCase = "D:/alg/insertion-sort-exponential-linked-list/BestCaseFiles/"; // Remplacez ce chemin par le répertoire où vous souhaitez stocker les fichiers triés en meilleur cas
                     String fileName = "results_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
                     String fileNameBest = "SortBestresults_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
-                    FilesSort.convertingDataToBestCase(directoryGenerate+fileName, directoryBestCase,fileNameBest);
-                    long timeOfSort = FilesSort.calculeTimeOfSort(directoryGenerate+fileName);
+                    FilesSort.convertingDataToBestCase(directoryGenerate, directoryBestCase, fileName, fileNameBest);
+                    long timeOfSort = FilesSort.calculeTimeOfSort(fileName, directoryGenerate);
 
 
                     // Créer le répertoire s'il n'existe pas

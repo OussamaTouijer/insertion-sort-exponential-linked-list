@@ -1,27 +1,27 @@
- Time taken to sort results_datasize_100_mean_1.0_variance_0.25.csv: 6 milliseconds
- Time taken to sort results_datasize_100_mean_1.0_variance_0.5.csv: 0 milliseconds
- Time taken to sort results_datasize_100_mean_1.0_variance_0.75.csv: 1 milliseconds
- Time taken to sort results_datasize_100_mean_2.0_variance_0.25.csv: 1 milliseconds
+ Time taken to sort results_datasize_100_mean_1.0_variance_0.25.csv: 0 milliseconds
+ Time taken to sort results_datasize_100_mean_1.0_variance_0.5.csv: 1 milliseconds
+ Time taken to sort results_datasize_100_mean_1.0_variance_0.75.csv: 0 milliseconds
+ Time taken to sort results_datasize_100_mean_2.0_variance_0.25.csv: 0 milliseconds
  Time taken to sort results_datasize_100_mean_2.0_variance_0.5.csv: 0 milliseconds
  Time taken to sort results_datasize_100_mean_2.0_variance_0.75.csv: 0 milliseconds
- Time taken to sort results_datasize_100_mean_3.0_variance_0.25.csv: 1 milliseconds
+ Time taken to sort results_datasize_100_mean_3.0_variance_0.25.csv: 0 milliseconds
  Time taken to sort results_datasize_100_mean_3.0_variance_0.5.csv: 1 milliseconds
  Time taken to sort results_datasize_100_mean_3.0_variance_0.75.csv: 0 milliseconds
- Time taken to sort results_datasize_200_mean_1.0_variance_0.25.csv: 7 milliseconds
+ Time taken to sort results_datasize_200_mean_1.0_variance_0.25.csv: 5 milliseconds
  Time taken to sort results_datasize_200_mean_1.0_variance_0.5.csv: 3 milliseconds
- Time taken to sort results_datasize_200_mean_1.0_variance_0.75.csv: 3 milliseconds
- Time taken to sort results_datasize_200_mean_2.0_variance_0.25.csv: 7 milliseconds
- Time taken to sort results_datasize_200_mean_2.0_variance_0.5.csv: 5 milliseconds
- Time taken to sort results_datasize_200_mean_2.0_variance_0.75.csv: 3 milliseconds
- Time taken to sort results_datasize_200_mean_3.0_variance_0.25.csv: 4 milliseconds
- Time taken to sort results_datasize_200_mean_3.0_variance_0.5.csv: 3 milliseconds
+ Time taken to sort results_datasize_200_mean_1.0_variance_0.75.csv: 4 milliseconds
+ Time taken to sort results_datasize_200_mean_2.0_variance_0.25.csv: 3 milliseconds
+ Time taken to sort results_datasize_200_mean_2.0_variance_0.5.csv: 3 milliseconds
+ Time taken to sort results_datasize_200_mean_2.0_variance_0.75.csv: 4 milliseconds
+ Time taken to sort results_datasize_200_mean_3.0_variance_0.25.csv: 3 milliseconds
+ Time taken to sort results_datasize_200_mean_3.0_variance_0.5.csv: 2 milliseconds
  Time taken to sort results_datasize_200_mean_3.0_variance_0.75.csv: 2 milliseconds
- Time taken to sort results_datasize_500_mean_1.0_variance_0.25.csv: 50 milliseconds
- Time taken to sort results_datasize_500_mean_1.0_variance_0.5.csv: 49 milliseconds
- Time taken to sort results_datasize_500_mean_1.0_variance_0.75.csv: 48 milliseconds
- Time taken to sort results_datasize_500_mean_2.0_variance_0.25.csv: 47 milliseconds
- Time taken to sort results_datasize_500_mean_2.0_variance_0.5.csv: 45 milliseconds
- Time taken to sort results_datasize_500_mean_2.0_variance_0.75.csv: 46 milliseconds
- Time taken to sort results_datasize_500_mean_3.0_variance_0.25.csv: 49 milliseconds
- Time taken to sort results_datasize_500_mean_3.0_variance_0.5.csv: 50 milliseconds
- Time taken to sort results_datasize_500_mean_3.0_variance_0.75.csv: 50 milliseconds
+ Time taken to sort results_datasize_500_mean_1.0_variance_0.25.csv: 43 milliseconds
+ Time taken to sort results_datasize_500_mean_1.0_variance_0.5.csv: 52 milliseconds
+ Time taken to sort results_datasize_500_mean_1.0_variance_0.75.csv: 46 milliseconds
+ Time taken to sort results_datasize_500_mean_2.0_variance_0.25.csv: 43 milliseconds
+ Time taken to sort results_datasize_500_mean_2.0_variance_0.5.csv: 48 milliseconds
+ Time taken to sort results_datasize_500_mean_2.0_variance_0.75.csv: 50 milliseconds
+ Time taken to sort results_datasize_500_mean_3.0_variance_0.25.csv: 51 milliseconds
+ Time taken to sort results_datasize_500_mean_3.0_variance_0.5.csv: 46 milliseconds
+ Time taken to sort results_datasize_500_mean_3.0_variance_0.75.csv: 51 milliseconds
