@@ -41,6 +41,8 @@ public class Main {
 
         // Appel de la méthode pour écrire la matrice dans des fichiers CSV
         FileWrite.writeMatrixToCSV(result, dataSizes, means, variances);
+        //tous les donnee
+        FileWrite.writeMatrixToCSVEnd(result, dataSizes, means, variances);
 
         // Écriture des données générées dans des fichiers CSV individuels et mesure du temps de tri
         for (int i = 0; i < dataSizes.length; i++) {
@@ -54,6 +56,7 @@ public class Main {
                     long timeOfSort = FilesSort.calculeTimeOfSort(fileName, directoryGenerate);
 
 
+
                     // Créer le répertoire s'il n'existe pas
                     File directory = new File("resultaTimeOfsort");
                     if (!directory.exists()) {
@@ -64,5 +67,13 @@ public class Main {
                 }
             }
         }
+        long timeOfSort1 = FilesSort.calculeTimeOfSort("resultsEnd.csv", "D:/alg/insertion-sort-exponential-linked-list/GenerateDataFileEnd/");
+
+        // Créer le répertoire s'il n'existe pas
+        File directory = new File("GenerateDataFileEnd");
+        if (!directory.exists()) {
+            directory.mkdirs();
+        }
+        appendToCSV("resultsEnd.csv", timeOfSort1);
     }
     }
