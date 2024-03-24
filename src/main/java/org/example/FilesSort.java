@@ -46,11 +46,22 @@ public class FilesSort {
         writeCSV(linkedList, directoryBestCase, name_File_of_data_best_case);
     }
 
+    // Méthode pour convertir les données en pert cas en utilisant l'algorithme d'insertion
+    public static void convertingDataToWorstCase(String directoryGenerate, String directoryBestCase, String name_File_of_data_average_case, String name_File_of_data_best_case) throws IOException {
+        LinkedList<Double> linkedList = readCSV(directoryGenerate, name_File_of_data_average_case);
+        LinkedlistInsertionSort.insertionSortDescending(linkedList);
+        writeCSV(linkedList, directoryBestCase, name_File_of_data_best_case);
+    }
+
+
+    /*
     public static void convertingDataToBestCaseEnd(String directoryGenerate, String directoryBestCase, String name_File_of_data_average_case, String name_File_of_data_best_case) throws IOException {
         LinkedList<Double> linkedList = readCSV(directoryGenerate, name_File_of_data_average_case);
         LinkedlistInsertionSort.insertionSort(linkedList);
         writeCSV(linkedList, directoryBestCase, name_File_of_data_best_case);
     }
+*/
+
 
     // Méthode pour calculer le temps d'exécution de l'algorithme de tri pour une liste donnée
     public static long calculeTimeOfSort(String name_of_csv, String directoryGenerate) {

@@ -12,7 +12,7 @@ public class FileWrite {
     // Chaque fichier est nommé en fonction de la taille des données, de la moyenne et de la variance
     public static void writeMatrixToCSV(LinkedList<Double>[][][][] randomNumbersMatrices, int[] dataSizes, double[] means, double[] variances) {
         // Création du dossier pour stocker les fichiers s'il n'existe pas
-        File directory = new File("GenerateDadaFiles");
+        File directory = new File("DadaAverageCaseFiles");
         if (!directory.exists()) {
             directory.mkdirs(); // Crée le répertoire et ses parents s'ils n'existent pas
         }
@@ -47,7 +47,7 @@ public class FileWrite {
         }
     }
 
-
+/*
     //tous les donne dans la meme fichier
     public static void writeMatrixToCSVEnd(LinkedList<Double>[][][][] randomNumbersMatrices, int[] dataSizes, double[] means, double[] variances) {
         // Création du dossier pour stocker les fichiers s'il n'existe pas
@@ -91,4 +91,6 @@ public class FileWrite {
             throw new RuntimeException(e);
         }
     }
+
+ */
 }

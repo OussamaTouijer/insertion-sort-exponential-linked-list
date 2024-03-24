@@ -27,6 +27,13 @@
             <version>1.9.0</version> <!-- ou la version la plus récente -->
         </dependency>
 
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>1.5.3</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>

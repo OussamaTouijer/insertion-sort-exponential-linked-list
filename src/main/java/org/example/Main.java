@@ -1,24 +1,59 @@
 package org.example;
 
+import org.example.FilesSort;
+import org.example.MatrixApproach;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedList;
+import java.nio.file.Files; // Import pour Files
 
 public class Main {
 
-    public static void appendToCSV(String fileName, long timeOfSort) {
-        String txt = " Time taken to sort " + fileName + ": " + timeOfSort + " milliseconds";
+    public static void appendToCSV(String fileName, String fileNameBest, String fileNameWorst, long timeOfSortAverage, long timeOfSortBest, long timeOfSortWorst) {
         String csvFileName = "resultaTimeOfsort/sort_times.csv";
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(csvFileName, true))) {
-            writer.write(txt);
+            // Écriture des temps de tri dans le fichier CSV
+            writer.write("Average Time taken to sort " + fileName + ": " + timeOfSortAverage + " milliseconds");
+            writer.newLine();
+            writer.write("Best Time taken to sort " + fileNameBest + ": " + timeOfSortBest + " milliseconds");
+            writer.newLine();
+            writer.write("Worst Time taken to sort " + fileNameWorst + ": " + timeOfSortWorst + " milliseconds");
+            writer.newLine();
+            writer.write("********************************************************************************\n");
             writer.newLine();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
+
+    public static void visualise(String fileName, long timeOfSortAverage, long timeOfSortBest, long timeOfSortWorst) {
+        String csvFileName = "resultaTimeOfsort/chart.csv";
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(csvFileName, true))) {
+            // Écriture des temps de tri dans le fichier CSV
+            writer.write(  fileName + " : " +"averageCase : "+ timeOfSortAverage + " ms " +"bestCase : "+ timeOfSortBest + " ms " + "worstCase : "+timeOfSortWorst + " ms ");
+            writer.newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+  /*  public static void visualise1(String fileName, long timeOfSortAverage, long timeOfSortBest, long timeOfSortWorst) {
+        String csvFileName = "resultaTimeOfsort/chart1.csv";
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(csvFileName, true))) {
+            // Écriture des temps de tri dans le fichier CSV
+            writer.write(  fileName + "__"+ timeOfSortAverage + "__"+ timeOfSortBest + "__"+timeOfSortWorst );
+            writer.newLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }*/
 
     public static void main(String[] args) throws IOException {
 
@@ -29,51 +64,40 @@ public class Main {
 
         LinkedList<Double>[][][][] result = MatrixApproach.matrixApproach(dataSizes, means, variances);
 
-        // Affichage des résultats pour vérification
-        for (int i = 0; i < dataSizes.length; i++) {
-            for (int j = 0; j < means.length; j++) {
-                for (int k = 0; k < variances.length; k++) {
-                    System.out.println("Data size: " + dataSizes[i] + ", Mean: " + means[j] + ", Variance: " + variances[k]);
-                    System.out.println("Generated numbers: " + result[i][j][k][0]);
-                }
-            }
-        }
-
         // Appel de la méthode pour écrire la matrice dans des fichiers CSV
-        FileWrite.writeMatrixToCSV(result, dataSizes, means, variances);
-        //tous les donnee
-        FileWrite.writeMatrixToCSVEnd(result, dataSizes, means, variances);
+         FileWrite.writeMatrixToCSV(result, dataSizes, means, variances); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
 
         // Écriture des données générées dans des fichiers CSV individuels et mesure du temps de tri
         for (int i = 0; i < dataSizes.length; i++) {
             for (int j = 0; j < means.length; j++) {
                 for (int k = 0; k < variances.length; k++) {
-                    String directoryGenerate = "D:/alg/insertion-sort-exponential-linked-list/GenerateDadaFiles/";
-                    String directoryBestCase = "D:/alg/insertion-sort-exponential-linked-list/BestCaseFiles/"; // Remplacez ce chemin par le répertoire où vous souhaitez stocker les fichiers triés en meilleur cas
+                    String directoryGenerate = "D:/alg/insertion-sort-exponential-linked-list/DadaAverageCaseFiles/";
+                    String directoryBestCase = "D:/alg/insertion-sort-exponential-linked-list/DadaBestCaseFiles/";
+                    String directoryWorstCase = "D:/alg/insertion-sort-exponential-linked-list/DadaWorstCaseFiles/";
+
                     String fileName = "results_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
-                    String fileNameBest = "SortBestresults_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
-                    FilesSort.convertingDataToBestCase(directoryGenerate, directoryBestCase, fileName, fileNameBest);
-                    long timeOfSort = FilesSort.calculeTimeOfSort(fileName, directoryGenerate);
-
-
+                    String fileNameBest = "Bestresults_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
+                    String fileNameWorst = "Worstresults_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
+                     FilesSort.convertingDataToBestCase(directoryGenerate, directoryBestCase, fileName, fileNameBest); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
+                     FilesSort.convertingDataToWorstCase(directoryGenerate, directoryWorstCase, fileName, fileNameWorst); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
+                     long timeOfSortAverage = FilesSort.calculeTimeOfSort(fileName, directoryGenerate); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
+                     long timeOfSortBest = FilesSort.calculeTimeOfSort(fileNameBest, directoryBestCase); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
+                     long timeOfSortWorst = FilesSort.calculeTimeOfSort(fileNameWorst, directoryWorstCase); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
 
                     // Créer le répertoire s'il n'existe pas
                     File directory = new File("resultaTimeOfsort");
                     if (!directory.exists()) {
                         directory.mkdirs();
                     }
-                    appendToCSV(fileName, timeOfSort);
+                     appendToCSV(fileName,fileNameBest,fileNameWorst,timeOfSortAverage,timeOfSortBest,timeOfSortWorst);
+                    String fileName1 = " datasize : " + dataSizes[i] + " mean : " + means[j] + " variance : " + variances[k];
+                    String fileName2 = ""+dataSizes[i]+"__"+ means[j] +"__"+variances[k]+"__";
+
+                    visualise(fileName1,timeOfSortAverage,timeOfSortBest,timeOfSortWorst);
+                    //visualise1(fileName2,timeOfSortAverage,timeOfSortBest,timeOfSortWorst);
 
                 }
             }
         }
-        long timeOfSort1 = FilesSort.calculeTimeOfSort("resultsEnd.csv", "D:/alg/insertion-sort-exponential-linked-list/GenerateDataFileEnd/");
-
-        // Créer le répertoire s'il n'existe pas
-        File directory = new File("GenerateDataFileEnd");
-        if (!directory.exists()) {
-            directory.mkdirs();
-        }
-        appendToCSV("resultsEnd.csv", timeOfSort1);
     }
-    }
+}

@@ -20,6 +20,23 @@ public class LinkedlistInsertionSort {
         return list;
     }
 
+    public static LinkedList<Double> insertionSortDescending(LinkedList<Double> list) {
+        int n = list.size();
+        for (int i = 1; i < n; ++i) {
+            Double key = list.get(i);
+            int j = i - 1;
+
+            // Déplacer les éléments de la liste[0..i-1], qui sont plus petits que la clé,
+            // vers une position après leur position actuelle
+            while (j >= 0 && list.get(j) < key) {
+                list.set(j + 1, list.get(j));
+                j = j - 1;
+            }
+            list.set(j + 1, key);
+        }
+        return list;
+    }
+
     public static void main(String[] args) {
         // Créer une liste non triée
         LinkedList<Double> list = new LinkedList<>();
@@ -35,6 +52,10 @@ public class LinkedlistInsertionSort {
         LinkedList<Double> sortedList = insertionSort(list);
 
         System.out.println("LinkedList triée : " + sortedList);
+
+        LinkedList<Double> sortedList1 = insertionSortDescending(list);
+
+        System.out.println("LinkedList triée : " + sortedList1);
     }
 }
 
