@@ -12,7 +12,8 @@ import java.nio.file.Files; // Import pour Files
 
 public class Main {
 
-    public static void appendToCSV(String fileName, String fileNameBest, String fileNameWorst, long timeOfSortAverage, long timeOfSortBest, long timeOfSortWorst) {
+
+    public static void appendToCSV(String fileName, String fileNameBest, String fileNameWorst, double timeOfSortAverage, double timeOfSortBest, double timeOfSortWorst) {
         String csvFileName = "resultaTimeOfsort/sort_times.csv";
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(csvFileName, true))) {
@@ -31,7 +32,7 @@ public class Main {
     }
 
 
-    public static void visualise(String fileName, long timeOfSortAverage, long timeOfSortBest, long timeOfSortWorst) {
+    public static void visualise(String fileName, double timeOfSortAverage, double timeOfSortBest, double timeOfSortWorst) {
         String csvFileName = "resultaTimeOfsort/chart.csv";
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(csvFileName, true))) {
@@ -43,17 +44,6 @@ public class Main {
         }
     }
 
-  /*  public static void visualise1(String fileName, long timeOfSortAverage, long timeOfSortBest, long timeOfSortWorst) {
-        String csvFileName = "resultaTimeOfsort/chart1.csv";
-
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(csvFileName, true))) {
-            // Écriture des temps de tri dans le fichier CSV
-            writer.write(  fileName + "__"+ timeOfSortAverage + "__"+ timeOfSortBest + "__"+timeOfSortWorst );
-            writer.newLine();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }*/
 
     public static void main(String[] args) throws IOException {
 
@@ -80,9 +70,9 @@ public class Main {
                     String fileNameWorst = "Worstresults_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
                      FilesSort.convertingDataToBestCase(directoryGenerate, directoryBestCase, fileName, fileNameBest); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
                      FilesSort.convertingDataToWorstCase(directoryGenerate, directoryWorstCase, fileName, fileNameWorst); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
-                     long timeOfSortAverage = FilesSort.calculeTimeOfSort(fileName, directoryGenerate); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
-                     long timeOfSortBest = FilesSort.calculeTimeOfSort(fileNameBest, directoryBestCase); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
-                     long timeOfSortWorst = FilesSort.calculeTimeOfSort(fileNameWorst, directoryWorstCase); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
+                     double timeOfSortAverage = FilesSort.calculeTimeOfSort(fileName, directoryGenerate); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
+                     double timeOfSortBest = FilesSort.calculeTimeOfSort(fileNameBest, directoryBestCase); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
+                     double timeOfSortWorst = FilesSort.calculeTimeOfSort(fileNameWorst, directoryWorstCase); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
 
                     // Créer le répertoire s'il n'existe pas
                     File directory = new File("resultaTimeOfsort");
@@ -91,10 +81,8 @@ public class Main {
                     }
                      appendToCSV(fileName,fileNameBest,fileNameWorst,timeOfSortAverage,timeOfSortBest,timeOfSortWorst);
                     String fileName1 = " datasize : " + dataSizes[i] + " mean : " + means[j] + " variance : " + variances[k];
-                    String fileName2 = ""+dataSizes[i]+"__"+ means[j] +"__"+variances[k]+"__";
 
                     visualise(fileName1,timeOfSortAverage,timeOfSortBest,timeOfSortWorst);
-                    //visualise1(fileName2,timeOfSortAverage,timeOfSortBest,timeOfSortWorst);
 
                 }
             }

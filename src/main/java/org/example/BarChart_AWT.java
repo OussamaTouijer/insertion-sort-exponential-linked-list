@@ -21,7 +21,7 @@ public class BarChart_AWT extends JFrame { // Changed ApplicationFrame to JFrame
                 true, true, false);
 
         ChartPanel chartPanel = new ChartPanel(barChart);
-        chartPanel.setPreferredSize(new java.awt.Dimension(5600, 3670));
+        chartPanel.setPreferredSize(new java.awt.Dimension(560, 367));
         setContentPane(chartPanel);
     }
 

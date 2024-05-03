@@ -3,7 +3,10 @@ package org.example;
 import java.io.*;
 import java.util.LinkedList;
 
+
 public class FilesSort {
+
+    private static final int WARMUP_ROUNDS = 15;
 
     // Méthode pour lire les données à partir d'un fichier CSV et les stocker dans une LinkedList
     public static LinkedList<Double> readCSV(String directory, String filename) throws IOException {
@@ -52,32 +55,31 @@ public class FilesSort {
         LinkedlistInsertionSort.insertionSortDescending(linkedList);
         writeCSV(linkedList, directoryBestCase, name_File_of_data_best_case);
     }
+/*
+    private static void warmupJVM(LinkedList<Double>[][][][] m) {
 
-
-    /*
-    public static void convertingDataToBestCaseEnd(String directoryGenerate, String directoryBestCase, String name_File_of_data_average_case, String name_File_of_data_best_case) throws IOException {
-        LinkedList<Double> linkedList = readCSV(directoryGenerate, name_File_of_data_average_case);
-        LinkedlistInsertionSort.insertionSort(linkedList);
-        writeCSV(linkedList, directoryBestCase, name_File_of_data_best_case);
+        for (int i = 0; i< WARMUP_ROUNDS; i++){
+            LinkedList<Double>[][][][] result = MatrixApproach.matrixApproach(dataSizes, means, variances);
+            InsertionSort.sort(data);
+        }
     }
 */
-
-
     // Méthode pour calculer le temps d'exécution de l'algorithme de tri pour une liste donnée
-    public static long calculeTimeOfSort(String name_of_csv, String directoryGenerate) {
-        long time = -1;
+    public static double calculeTimeOfSort(String name_of_csv, String directoryGenerate) {
+        double time = -1;
         try {
             LinkedList<Double> dataList = readCSV(directoryGenerate, name_of_csv);
             long t0 = System.nanoTime();
             LinkedlistInsertionSort.insertionSort(dataList);
             long t1 = System.nanoTime();
-            time = (t1 - t0) / 1000000;
+            time = (t1 - t0) / 1000000.0;
 
         } catch (IOException e) {
             System.err.println("Erreur lors de la lecture du fichier CSV : " + e.getMessage());
         }
         return time;
     }
+
 
 
 }
