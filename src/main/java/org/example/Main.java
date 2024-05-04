@@ -7,8 +7,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.nio.file.Files; // Import pour Files
+import java.util.Map;
 
 public class Main {
 
@@ -52,6 +54,8 @@ public class Main {
         double[] variances = {0.25, 0.5, 0.75};
         int[] dataSizes = {100, 200, 500};
 
+        Map<String, Schedule> scheduleMap = new HashMap<>();
+
         LinkedList<Double>[][][][] result = MatrixApproach.matrixApproach(dataSizes, means, variances);
 
         // Appel de la méthode pour écrire la matrice dans des fichiers CSV
@@ -68,11 +72,15 @@ public class Main {
                     String fileName = "results_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
                     String fileNameBest = "Bestresults_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
                     String fileNameWorst = "Worstresults_datasize_" + dataSizes[i] + "_mean_" + means[j] + "_variance_" + variances[k] + ".csv";
+                    String NfileTimeExc="" + dataSizes[i] + "_" + means[j] + "_" + variances[k];
+
                      FilesSort.convertingDataToBestCase(directoryGenerate, directoryBestCase, fileName, fileNameBest); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
                      FilesSort.convertingDataToWorstCase(directoryGenerate, directoryWorstCase, fileName, fileNameWorst); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
                      double timeOfSortAverage = FilesSort.calculeTimeOfSort(fileName, directoryGenerate); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
                      double timeOfSortBest = FilesSort.calculeTimeOfSort(fileNameBest, directoryBestCase); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
                      double timeOfSortWorst = FilesSort.calculeTimeOfSort(fileNameWorst, directoryWorstCase); // Assurez-vous d'implémenter ou d'importer cette méthode correctement
+
+                    scheduleMap.put(NfileTimeExc, new Schedule(timeOfSortAverage, timeOfSortBest, timeOfSortWorst));
 
                     // Créer le répertoire s'il n'existe pas
                     File directory = new File("resultaTimeOfsort");
@@ -87,5 +95,6 @@ public class Main {
                 }
             }
         }
+        GraphGenerator.displayChart(scheduleMap);
     }
 }

@@ -133,3 +133,543 @@ Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.75.csv: 0.4
 Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.75.csv: 158.0244 milliseconds
 ********************************************************************************
 
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.25.csv: 1.0014 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.25.csv: 0.0593 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.25.csv: 1.2734 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.5.csv: 1.0583 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.5.csv: 0.0391 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.5.csv: 1.2625 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.75.csv: 0.7521 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.75.csv: 0.0931 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.75.csv: 1.8846 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.25.csv: 1.0809 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.25.csv: 0.0348 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.25.csv: 1.5678 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.5.csv: 0.7215 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.5.csv: 0.035 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.5.csv: 1.321 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.75.csv: 0.9198 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.75.csv: 0.0359 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.75.csv: 5.3124 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.25.csv: 0.5296 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.25.csv: 0.0268 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.25.csv: 0.7402 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.5.csv: 0.5919 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.5.csv: 0.0234 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.5.csv: 0.6977 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.75.csv: 0.544 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.75.csv: 0.024 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.75.csv: 0.8783 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.25.csv: 3.9439 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.25.csv: 0.0867 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.25.csv: 10.5421 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.5.csv: 4.0108 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.5.csv: 0.0974 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.5.csv: 3.3885 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.75.csv: 4.5963 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.75.csv: 0.0638 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.75.csv: 8.055 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.25.csv: 2.6633 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.25.csv: 0.0564 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.25.csv: 4.7251 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.5.csv: 2.2554 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.5.csv: 0.0888 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.5.csv: 7.5432 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.75.csv: 2.054 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.75.csv: 0.0591 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.75.csv: 4.7717 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.25.csv: 2.4941 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.25.csv: 0.0581 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.25.csv: 4.2128 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.5.csv: 2.7481 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.5.csv: 0.068 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.5.csv: 4.5323 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.75.csv: 2.7862 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.75.csv: 0.0573 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.75.csv: 7.3614 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.25.csv: 59.1884 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.25.csv: 0.3822 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.25.csv: 93.3959 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.5.csv: 62.3433 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.5.csv: 0.3614 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.5.csv: 91.9845 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.75.csv: 58.8083 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.75.csv: 0.2941 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.75.csv: 103.2512 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.25.csv: 50.4068 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.25.csv: 0.2934 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.25.csv: 87.9025 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.5.csv: 54.264 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.5.csv: 0.3439 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.5.csv: 88.3074 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.75.csv: 50.4182 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.75.csv: 0.2683 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.75.csv: 77.1967 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.25.csv: 46.1188 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.25.csv: 0.3088 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.25.csv: 74.4924 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.5.csv: 47.6873 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.5.csv: 0.2861 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.5.csv: 74.192 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.75.csv: 49.5556 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.75.csv: 0.2715 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.75.csv: 72.9545 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.25.csv: 3.1995 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.25.csv: 0.0361 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.25.csv: 1.2995 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.5.csv: 1.5098 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.5.csv: 0.0364 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.5.csv: 1.2535 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.75.csv: 4.8767 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.75.csv: 0.0393 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.75.csv: 1.3605 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.25.csv: 0.7553 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.25.csv: 0.0427 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.25.csv: 1.7786 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.5.csv: 0.7125 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.5.csv: 0.0344 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.5.csv: 1.2428 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.75.csv: 0.7834 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.75.csv: 0.0367 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.75.csv: 1.2953 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.25.csv: 0.5547 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.25.csv: 0.0246 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.25.csv: 0.885 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.5.csv: 0.4799 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.5.csv: 0.0234 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.5.csv: 0.8737 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.75.csv: 2.1077 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.75.csv: 0.0232 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.75.csv: 0.9517 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.25.csv: 3.8817 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.25.csv: 0.0706 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.25.csv: 5.4437 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.5.csv: 4.9172 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.5.csv: 0.0572 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.5.csv: 3.8685 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.75.csv: 2.7613 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.75.csv: 0.0594 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.75.csv: 3.5722 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.25.csv: 2.7551 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.25.csv: 0.0585 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.25.csv: 4.4763 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.5.csv: 2.7512 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.5.csv: 0.0694 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.5.csv: 4.4508 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.75.csv: 2.8658 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.75.csv: 0.0584 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.75.csv: 3.5882 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.25.csv: 2.4481 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.25.csv: 0.066 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.25.csv: 3.4189 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.5.csv: 2.6694 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.5.csv: 0.0547 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.5.csv: 4.3824 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.75.csv: 2.7763 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.75.csv: 0.054 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.75.csv: 4.3614 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.25.csv: 50.5434 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.25.csv: 0.3657 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.25.csv: 92.8388 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.5.csv: 51.9647 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.5.csv: 0.3903 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.5.csv: 81.6843 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.75.csv: 51.8388 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.75.csv: 0.2856 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.75.csv: 82.8375 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.25.csv: 50.3729 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.25.csv: 0.2865 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.25.csv: 77.7848 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.5.csv: 47.1074 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.5.csv: 0.3684 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.5.csv: 70.6867 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.75.csv: 39.2855 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.75.csv: 0.2665 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.75.csv: 77.8483 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.25.csv: 42.2101 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.25.csv: 0.3543 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.25.csv: 75.6761 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.5.csv: 46.9294 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.5.csv: 0.3147 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.5.csv: 75.6494 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.75.csv: 39.216 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.75.csv: 0.3114 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.75.csv: 67.7244 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.25.csv: 4.6634 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.25.csv: 0.0347 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.25.csv: 1.3028 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.5.csv: 0.6639 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.5.csv: 0.051 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.5.csv: 1.3943 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.75.csv: 0.7225 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.75.csv: 0.0363 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.75.csv: 1.2343 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.25.csv: 0.8525 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.25.csv: 0.0366 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.25.csv: 1.9131 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.5.csv: 0.7216 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.5.csv: 0.0364 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.5.csv: 1.3088 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.75.csv: 1.4971 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.75.csv: 0.0348 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.75.csv: 1.4896 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.25.csv: 0.5898 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.25.csv: 0.0246 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.25.csv: 0.9069 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.5.csv: 0.5329 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.5.csv: 0.0243 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.5.csv: 0.9063 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.75.csv: 0.5355 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.75.csv: 0.0243 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.75.csv: 0.9396 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.25.csv: 4.4552 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.25.csv: 0.07 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.25.csv: 6.0653 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.5.csv: 2.9618 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.5.csv: 0.0523 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.5.csv: 4.2814 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.75.csv: 3.4316 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.75.csv: 0.0553 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.75.csv: 4.3972 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.25.csv: 2.7296 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.25.csv: 0.0514 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.25.csv: 4.5894 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.5.csv: 2.8812 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.5.csv: 0.0584 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.5.csv: 4.957 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.75.csv: 3.1036 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.75.csv: 0.0579 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.75.csv: 4.6958 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.25.csv: 2.599 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.25.csv: 0.0607 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.25.csv: 4.7914 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.5.csv: 2.7022 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.5.csv: 0.0607 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.5.csv: 10.4052 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.75.csv: 2.9817 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.75.csv: 0.0554 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.75.csv: 4.3055 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.25.csv: 59.9311 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.25.csv: 0.3543 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.25.csv: 86.0385 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.5.csv: 53.5828 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.5.csv: 0.604 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.5.csv: 89.9517 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.75.csv: 53.1584 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.75.csv: 0.3645 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.75.csv: 87.5519 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.25.csv: 49.0373 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.25.csv: 0.3533 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.25.csv: 80.357 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.5.csv: 49.5592 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.5.csv: 0.3627 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.5.csv: 86.2409 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.75.csv: 58.2672 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.75.csv: 0.5123 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.75.csv: 80.8812 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.25.csv: 47.3335 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.25.csv: 0.285 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.25.csv: 93.5161 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.5.csv: 66.0201 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.5.csv: 0.274 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.5.csv: 76.6515 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.75.csv: 48.2616 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.75.csv: 0.292 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.75.csv: 75.657 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.25.csv: 4.6849 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.25.csv: 0.0362 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.25.csv: 1.8632 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.5.csv: 0.9668 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.5.csv: 0.0388 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.5.csv: 1.4525 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_1.0_variance_0.75.csv: 0.6369 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_1.0_variance_0.75.csv: 0.0371 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_1.0_variance_0.75.csv: 1.3973 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.25.csv: 0.8457 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.25.csv: 0.0534 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.25.csv: 1.2951 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.5.csv: 0.7914 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.5.csv: 0.0376 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.5.csv: 1.8043 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_2.0_variance_0.75.csv: 0.6814 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_2.0_variance_0.75.csv: 0.0472 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_2.0_variance_0.75.csv: 1.4673 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.25.csv: 2.3352 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.25.csv: 0.0432 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.25.csv: 0.9133 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.5.csv: 0.5456 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.5.csv: 0.0247 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.5.csv: 0.9224 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_100_mean_3.0_variance_0.75.csv: 0.5735 milliseconds
+Best Time taken to sort Bestresults_datasize_100_mean_3.0_variance_0.75.csv: 0.0249 milliseconds
+Worst Time taken to sort Worstresults_datasize_100_mean_3.0_variance_0.75.csv: 0.89 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.25.csv: 4.002 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.25.csv: 0.068 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.25.csv: 6.3137 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.5.csv: 3.9803 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.5.csv: 0.1121 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.5.csv: 4.2048 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_1.0_variance_0.75.csv: 2.8132 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_1.0_variance_0.75.csv: 0.0564 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_1.0_variance_0.75.csv: 3.9414 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.25.csv: 2.6021 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.25.csv: 0.0542 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.25.csv: 4.3205 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.5.csv: 3.0991 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.5.csv: 0.0587 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.5.csv: 4.4637 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_2.0_variance_0.75.csv: 2.8473 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_2.0_variance_0.75.csv: 0.063 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_2.0_variance_0.75.csv: 3.8522 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.25.csv: 2.9228 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.25.csv: 0.0525 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.25.csv: 3.953 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.5.csv: 2.8551 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.5.csv: 0.0539 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.5.csv: 4.3116 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_200_mean_3.0_variance_0.75.csv: 2.8963 milliseconds
+Best Time taken to sort Bestresults_datasize_200_mean_3.0_variance_0.75.csv: 0.0542 milliseconds
+Worst Time taken to sort Worstresults_datasize_200_mean_3.0_variance_0.75.csv: 4.4884 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.25.csv: 49.015 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.25.csv: 0.3571 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.25.csv: 82.1312 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.5.csv: 48.2427 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.5.csv: 0.3555 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.5.csv: 80.659 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_1.0_variance_0.75.csv: 50.8809 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_1.0_variance_0.75.csv: 0.2815 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_1.0_variance_0.75.csv: 76.4942 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.25.csv: 45.372 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.25.csv: 0.3535 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.25.csv: 80.5417 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.5.csv: 49.9137 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.5.csv: 0.3924 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.5.csv: 69.0372 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_2.0_variance_0.75.csv: 39.4041 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_2.0_variance_0.75.csv: 0.2831 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_2.0_variance_0.75.csv: 64.5734 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.25.csv: 39.9626 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.25.csv: 0.3022 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.25.csv: 64.369 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.5.csv: 43.0951 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.5.csv: 0.272 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.5.csv: 65.8255 milliseconds
+********************************************************************************
+
+Average Time taken to sort results_datasize_500_mean_3.0_variance_0.75.csv: 43.2757 milliseconds
+Best Time taken to sort Bestresults_datasize_500_mean_3.0_variance_0.75.csv: 0.288 milliseconds
+Worst Time taken to sort Worstresults_datasize_500_mean_3.0_variance_0.75.csv: 65.9696 milliseconds
+********************************************************************************
+
